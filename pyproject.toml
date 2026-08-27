@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "wp1"
+version = "1.0.0"
+description = "Simple Word Processor v1"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+wp1 = "wordprocessor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
