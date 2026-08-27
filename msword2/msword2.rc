@@ -1,0 +1,58 @@
+// Microsoft Visual C++ generated resource script.
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+#include "winres.h"
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+/////////////////////////////////////////////////////////////////////////////
+// Dialog
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About msword2"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "msword2 Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2024",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+/////////////////////////////////////////////////////////////////////////////
+// String Table
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "msword2"
+    IDR_msword2TYPE         "\nmsword2\nmsword2\n\n\nmsword2.Document\nmsword2 Document"
+    IDS_EDIT_MENU           "Edit"
+END
+
+/////////////////////////////////////////////////////////////////////////////
+// Ribbon
+
+IDR_RIBBON AFX_RIBBON_STYLE "res\\ribbon.mfcribbon-ms"
+
+/////////////////////////////////////////////////////////////////////////////
+// Menu
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Cut\tCtrl+X",      ID_EDIT_CUT
+        MENUITEM "Copy\tCtrl+C",     ID_EDIT_COPY
+        MENUITEM "Paste\tCtrl+V",    ID_EDIT_PASTE
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////
+// Icon
+// IDR_MAINFRAME — default MFC application icon (using stock resource)
+// No external .ico needed; build will use MFC default
+
+#endif
