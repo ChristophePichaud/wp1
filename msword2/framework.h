@@ -43,4 +43,4 @@
 #include <afxframewndex.h>
 #include <afxmdiframewndex.h>
 #include <afxdialogex.h>
-#include <afxribbon.h>
+//#include <afxribbon.h>

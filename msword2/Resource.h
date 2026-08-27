@@ -7,6 +7,8 @@
 #define IDR_RIBBON                      150
 #define IDB_MAIN                        200
 #define IDS_EDIT_MENU                   306
+#define ID_EDIT_COPY	                307
+#define ID_EDIT_CUT		                308
 #define IDR_POPUP_EDIT                  309
 #define ID_WINDOW_MANAGER               32770
 #define ID_STATUSBAR_PANE1              32771
